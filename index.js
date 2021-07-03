@@ -1,11 +1,8 @@
-const { ifError } = require('assert');
-const { Console } = require('console');
-
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-client.login(process.env.TOKEN);
+client.login('ODYwNjAwMzYyODI5NjExMDI5.YN9miw.nUFWC4JYowdU7qRS5faUrRlIOWQ');
 
 client.on("ready", () => {
   client.user.setActivity("-help")
@@ -35,10 +32,5 @@ client.on('message', msg => {
     }
   });
 
-
-
-
-  
-
-
+  console.log("online")
 
